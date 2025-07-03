@@ -6,8 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserManagerTest {
     @Test
     void testDoStuff() {
-        UserManager um = new UserManager();
-        um.doStuff("test", "pass");
-        assertTrue(true); // Prueba básica
+        UserManager manager = new UserManager();
+        manager.doStuff("test", "pass");
     }
 }
