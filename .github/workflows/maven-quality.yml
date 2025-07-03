@@ -52,8 +52,9 @@ jobs:
           name: spotbugs-report
           path: target/spotbugsXml.xml
 
-      - name: Upload Checkstyle report
-        uses: actions/upload-artifact@v3
+      - name: Upload Checkstyle Report
+        uses: actions/upload-artifact@v4
         with:
           name: checkstyle-report
           path: target/checkstyle-result.xml
+
